@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './Components/Welcome';
-import Desafio from './Components/Desafio';
+import Desafio from './Components/Desafio/Desafio';
 
 function App() {
 
@@ -9,21 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
+        <Desafio/>
       </header>
-      <body>
-        <p>
-          Minha parte
-        </p>
-        <Welcome name="Sara" />
-        <Desafio
-          phrase1 = "da Júlia."
-          phrase2 = "do Antonio."
-          phrase3 = "do Brasil."
-        />
-      </body>
     </div>
   );
 }

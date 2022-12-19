@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from 'react-typed'
-//import Typical from 'react-typical'
+
+
 export class Desafio extends React.Component {
     render() {
       return (
@@ -10,9 +11,9 @@ export class Desafio extends React.Component {
               a saúde{' '}
               <Typed
                 strings={[
-                  this.props.phrase1,
-                  this.props.phrase2,
-                  this.props.phrase3
+                  "da Júlia.",
+                  "do Antonio.",
+                  "do Brasil."
                 ]}
                 typeSpeed ={100}
                 backSpeed = {100}
