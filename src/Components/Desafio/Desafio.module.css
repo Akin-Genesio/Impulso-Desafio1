@@ -12,14 +12,14 @@
     color: #ffffff;
 }
 
-.tituloDesafio{
+.TituloDesafio{
     line-height: 110%;
     letter-spacing: -0.04em;
     font-size: 112px;
     padding-right: 10%;
 }
 
-.tituloDestaqueDesafio{
+.TituloDestaqueDesafio{
     color: #2EB280;
 
 }
