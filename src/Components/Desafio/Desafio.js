@@ -6,7 +6,7 @@ export class Desafio extends React.Component {
       return (
         <div className="conteinerDesafio">
           <p className="textoDesafio">O uso inteligente de <br/>
-              dados para transormar <br/>
+              dados para transformar <br/>
               a saúde{' '}
               <Typed
                 strings={[
